@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_1: VIT-Clubs using HTML</title>
+</head>
+<body>
+    <header style="background-color: #ebf9ff; margin: 0px;">
+        <img src="vit_logo.webp" alt="vit_logo" style="height: 100px;margin-bottom: 10px; margin-right: 30px;">
+        <img src="prop.jpeg" alt="vit_logo" style="height: 110px; margin-left: 350px;">
+    </header>
+    <hr>
+    <main style="background-image: url(vit_campus.jpg);">
+        <div>
+            <h2 style="text-align: center;">Since its inception in 1983, Vishwakarma Institute of Technology, Pune (VIT, Pune) has believed in providing education that empowers its students. A rigorous focus on academic excellence, a culture of research and innovation and a thriving learning environment have made it a top engineering college in Pune. VIT, Pune, has had an illustrious track record of achievements and achievers in leadership positions worldwide.</h2>
+            <img src="vit_campus.jpg" width="100%">
+        </div>
+    </main>
+    </body>
+</html>
+
+
+CLUBS.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clubs Page</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        .logo {
+            display: flex;
+            justify-content: center; 
+            gap: 150px;
+        }
+        .logo div{
+            text-align: center;
+        }
+        img{
+            width: 150px;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(214, 254, 254);">
+    <header>
+        <h1>VIT CLUBS</h1>
+        <hr>
+    </header>
+    <main>
+        <p style="font-size: 20px;">There are various clubs available in VIT for each individual to take part in.</p>
+        <p style="font-size: 20px;">These clubs range in various fields such as <b>Technical</b>, <b>Social & SW&D</b>, <b>Self-Development & Responsibilities</b>, <b>Sports</b> and <b>Cultural</b>.</p>
+        <hr>
+        <h2>Technical Clubs</h2>
+        <div class="logo">
+            <div>
+                <img src="Clubs/Technical/GDSC Image.jpg" alt="GDSC Logo">
+                <p><a href=""><b>Google Developers Student Club</b></a></p>
+                <p><a href="https://www.instagram.com/dscvitpune/"><i>INSTAGRAM-GDSC</i></a></p>
+            </div>
+            <div>
+                <img src="Clubs/Technical/GedIt Image.jpg" alt="Gedit Logo">
+                <p><a href=""><b>GedIt Coding Club</b></a></p>
+                <p><a href="https://www.instagram.com/gedit.vit/"><i>INSTAGRAM-GEDIT</i></a></p>
+            </div>
+            <div>
+                <img src="Clubs/Technical/MLSC Image.jpg" alt="MLSC Logo">
+                <p><p><a href=""><b>Microsoft Learners Student Club</b></a></p></p>
+                <p><a href="https://www.instagram.com/mlscvitpune/"><i>INSTAGRAM-MLSC</i></a></p>
+            </div>
+            <div>
+                <img src="Clubs/Technical/TRF Image.jpg" alt="TRF Logo">
+                <p><p><a href=""><b>The Robotics Forum</b></a></p></p>
+                <p><a href="https://www.instagram.com/vitpunerobotics/"><i>INSTAGRAM-TRF</i></a></p>
+            </div>
+        </div>
+        <hr>
+        <h2>Social Clubs</h2>
+        <div class="logo">
+            <div>
+                <img src="Clubs/Social/DIVA Image.jpg" alt="DIVA Logo">
+                <p><a href=""><b>Women Empowerment Club</b></a></p>
+                <p><a href="https://www.instagram.com/vit_official_divaclub/"><i>INSTAGRAM-DIVA</i></a></p>
+            </div>
+            <div>
+                <img src="Clubs/Social/MUN Image.jpg" alt="MUN Logo">
+                <p><a href=""><b>Model United Nations Club</b></a></p>
+                <p><a href="https://www.instagram.com/vitpunemun2025/"><i>INSTAGRAM-MUN</i></a></p>
+            </div>
+            <div>
+                <img src="Clubs/Social/Saarthi Image.jpg" alt="SAARTHI Logo">
+                <p><p><a href=""><b>Freshers Supporting Club</b></a></p></p>
+                <p><a href="https://www.instagram.com/vit_pune_saarthi/"><i>INSTAGRAM-SAARTHI</i></a></p>
+            </div>
+            <div>
+                <img src="Clubs/Social/SWD Image.jpg" alt="SWD Logo">
+                <p><p><a href=""><b>Social Welfare Club</b></a></p></p>
+                <p><a href="https://www.instagram.com/vitsocials/"><i>INSTAGRAM-SWD</i></a></p>
+            </div>
+        </div>
+        <hr>
+        <h2>Self Development Clubs</h2>
+        <div class="logo">
+            <div>
+                <img src="Clubs/Personality/Abhivridhi Image.jpg" alt="ABHIVRIDHI Logo">
+                <p><a href=""><b>The Abhivridhi Club</b></a></p>
+                <p><a href="https://www.instagram.com/vit_abhivriddhi/"><i>INSTAGRAM-ABHIVRIDHI</i></a></p>
+            </div>
+            <div>
+                <img src="Clubs/Personality/CATALYST Image.jpg" alt="CATALYST Logo">
+                <p><a href=""><b>The Catalyst Club</b></a></p>
+                <p><a href="https://www.instagram.com/thecatalyst_vit/"><i>INSTAGRAM-CATALYST</i></a></p>
+            </div>
+            <div>
+                <img src="Clubs/Personality/EDC Image.jpg" alt="EDC Logo">
+                <p><p><a href=""><b>Entreprenurship Development Club</b></a></p></p>
+                <p><a href="https://www.instagram.com/v_edc/"><i>INSTAGRAM-VEDC</i></a></p>
+            </div>
+            <div>
+                <img src="Clubs/Personality/TIF Image.jpg" alt="TIF Logo">
+                <p><p><a href=""><b>The Investment Forum</b></a></p></p>
+                <p><a href="https://www.instagram.com/tifvitpune/"><i>INSTAGRAM-TIF</i></a></p>
+            </div>
+        </div>
+        <hr>
+        <h2>Cultural Clubs</h2>
+        <div class="logo">
+            <div>
+                <img src="Clubs/Cultural/Aaroh Image.jpg" alt="AAROH Logo">
+                <p><a href=""><b>Official Music Club</b></a></p>
+                <p><a href="https://www.instagram.com/vit_aaroh/"><i>INSTAGRAM-AAROH</i></a></p>
+            </div>
+            <div>
+                <img src="Clubs/Cultural/Poet Image.jpg" alt="POET Logo">
+                <p><a href=""><b>Official Poets Club</b></a></p>
+                <p><a href="https://www.instagram.com/_poets_society/"><i>INSTAGRAM-POET</i></a></p>
+            </div>
+            <div>
+                <img src="Clubs/Cultural/Viculp Image.jpg" alt="VICULP Logo">
+                <p><p><a href=""><b>Official Nataki Club</b></a></p></p>
+                <p><a href="https://www.instagram.com/vit_viculp/"><i>INSTAGRAM-VICULP</i></a></p>
+            </div>
+            <div>
+                <img src="Clubs/Cultural/Zephyr Image.jpg" alt="ZEPHYR Logo">
+                <p><p><a href=""><b>Official Dance Club</b></a></p></p>
+                <p><a href="https://www.instagram.com/vit_zephyr/"><i>INSTAGRAM-ZEPHYR</i></a></p>
+            </div>
+        </div>
+        <hr>
+        <h2>Sports Clubs</h2>
+        <div class="logo">
+            <div>
+                <img src="Clubs/Sports/Chess Image.jpg" alt="Chess Logo">
+                <p><a href=""><b>VIT Official Chess Club</b></a></p>
+                <p><a href="https://www.instagram.com/dscvitpune/"><i>INSTAGRAM-CHESS</i></a></p>
+            </div>
+            <div>
+                <img src="Clubs/Sports/Trek Image.jpg" alt="TREK Logo">
+                <p><a href=""><b>Official Treking Club</b></a></p>
+                <p><a href="https://www.instagram.com/gedit.vit/"><i>INSTAGRAM-TREK</i></a></p>
+            </div>
+        </div>
+        <hr>
+        <div class="logo">
+            <div id="EPEC">
+                <img src="Clubs/EPEC Image.jpg" alt="EPEC Logo" width=>
+                <p><a href=""><b>All The Clubs Are Centrally Managed By The EVENT MANAGEMENT AND EXECUTION COMMITEE OF VIT.</b></a></p>
+                <p><a href="https://www.instagram.com/vit_pune_official/"><i>INSTAGRAM-EPEC</i></a></p>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
