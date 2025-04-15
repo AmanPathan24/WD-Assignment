@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>VIT-CLUBS</title>
+    <link rel="stylesheet" href="/Assignment_2/static/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div class="main" id="mainPage">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo"><img src="/Assignment_2/static/vit_logo.webp" alt="vit_logo" height="90px"></h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ACADEMICS</a></li>
+                    <li><a href="#">ADMISSIONS</a></li>
+                    <li><a href="#">CLUBS</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </ul>
+            </div>
+
+            <!-- <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div> -->
+        </div> 
+        <hr style="width: 100%;">
+        <div class="content">
+            <div class="content-para">
+                <h1 class="heading-animate"><q>Engineer The<br><span>Future</span> <br>You Want To See</q></h1>
+                <pre class="par">Since its inception in 1983, Vishwakarma Institute of Technology, Pune (VIT, Pune)
+has believed in providing education that empowers its students. A rigorous focus on 
+academic excellence, a culture of research and innovation and a thriving learning
+environment have made it a top engineering college in Pune.
+VIT, Pune, has had an illustrious track record of achievements and achievers
+in leadership positions worldwide.</pre>
+
+                <button class="cn"><a href="#">JOIN US</a></button>
+            </div>
+
+                <div class="form">
+                    <div class="form-content">
+                    <h2>Signup Here</h2>
+                    <form action="/Assignment_2/Templates/home.html" method="get">
+                            <div class="input-box">
+                                <input type="text" class="input-field" placeholder="Enter Full Name" required>
+                            </div>
+                        <input type="email" name="email" placeholder="Enter Email Here(vit.edu)" required>
+                        <input type="password" name="password" placeholder="Create Password" required>
+                        <input type="text" name="number" placeholder="Enter Mobile Number" required>
+                        <button class="btnn" type="submit">Sign Up</button>
+                    </form>
+
+                    <p class="link">Already Have an account<br>
+                        <a href="/Assignment_2/Templates/login.html" id="loginLink">Login Here</a>
+                    </p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+<script>
+    const loginLink = document.getElementById('loginLink');
+    const mainPage = document.getElementById('mainPage');
+
+    loginLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        mainPage.classList.add('slide-fade-out');
+
+        setTimeout(() => {
+            window.location.href = loginLink.href;
+        }, 800); // match animation duration
+    });
+    window.addEventListener('load', function () {
+        const heading = document.querySelector('.heading-animate');
+        if (heading) {
+            heading.classList.add('active');
+        }
+    });
+</script>
+
+
+</html>
